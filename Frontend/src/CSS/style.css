@@ -1,0 +1,85 @@
+/* giving style to overall document/page*/
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-color: #FFFBEA;
+}
+/* nav bar (same on every page) */
+.nav-bar{
+    height: 70px;
+    background-color: #FFFBEA;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 0 40px;
+    border-bottom: 2px solid #01461f;
+}
+.brand a{
+    text-decoration: none;
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #01461f;
+}
+.brand span{
+    color: #2A9D8F;
+}
+.nav-pages-links{
+    display: flex;
+    list-style-type: none;
+    gap: 20px;
+    align-items: center;
+}
+.nav-pages-links a{
+    text-decoration: none;
+    color: #01461f;
+    font-size: 1.2rem;
+    padding: 6px 12px;
+    border-radius: 4px;
+}
+.nav-pages-links a:hover{
+    background-color: #01461f;
+    color: #FFFBEA;
+}
+/* green button used in many places */
+.green-button{
+    display: inline-block;
+    background-color: #01461f;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 22px;
+    font-size: 1.1rem;
+    text-decoration: none;
+    cursor: pointer;
+}
+.green-button:hover{
+    background-color: #2A9D8F;
+}
+.light-button{
+    display: inline-block;
+    background-color: transparent;
+    color: #01461f;
+    border: 2px solid #01461f;
+    border-radius: 4px;
+    padding: 8px 22px;
+    font-size: 1.1rem;
+    text-decoration: none;
+    cursor: pointer;
+}
+.light-button:hover{
+    background-color: #01461f;
+    color: white;
+}
+/* footer */
+footer{
+    text-align: center;
+    padding: 20px;
+    background-color: #01461f;
+    color: #FFFBEA;
+}

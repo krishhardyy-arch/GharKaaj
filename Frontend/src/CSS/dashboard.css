@@ -1,0 +1,59 @@
+/* css for customer, provider and admin dashboards */
+.dashboard-main{
+    margin-top: 70px;
+    padding: 40px;
+}
+.welcome-box{
+    padding: 25px;
+    border-radius: 8px;
+    background-color: #264653;
+    color: #FFFBEA;
+}
+.welcome-box h1{
+    margin-bottom: 8px;
+}
+.role-tag{
+    display: inline-block;
+    margin-top: 8px;
+    padding: 3px 12px;
+    border-radius: 12px;
+    background-color: #2A9D8F;
+    color: white;
+    font-size: 0.9rem;
+}
+.info-section{
+    display: flex;
+    gap: 25px;
+    margin-top: 25px;
+}
+.info-card{
+    flex: 1;
+    padding: 20px;
+    border: 2px solid #01461f;
+    border-radius: 8px;
+    background-color: #F8F4E6;
+}
+.info-card h2{
+    margin-bottom: 12px;
+    color: #01461f;
+}
+.info-card p{
+    margin-top: 8px;
+}
+/* message for provider verification */
+.status-box{
+    display: none;
+    margin-top: 25px;
+    padding: 15px;
+    border-radius: 8px;
+    font-weight: bold;
+}
+.status-pending{
+    background-color: #E9C46A;
+}
+.status-approved{
+    background-color: #ADE9B2;
+}
+.status-rejected{
+    background-color: #F4A261;
+}

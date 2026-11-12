@@ -1,65 +1,70 @@
 /* home page css */
 .hero{
-    margin-top: 70px;
-    height: 450px;
+    margin-top: 64px;
+    min-height: 430px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
-    padding: 0 20px;
-    background-color: #264653;
-    color: #FFFBEA;
+    padding: 40px 20px;
+    background-color: #102F35;
+    color: #FFFFFF;
 }
 .hero h1{
-    font-size: 2.8rem;
+    font-size: 2.6rem;
+    max-width: 850px;
     margin-bottom: 15px;
 }
 .hero p{
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     max-width: 700px;
     margin-bottom: 30px;
+    color: #D5E3E0;
 }
 .hero-buttons{
     display: flex;
-    gap: 20px;
+    gap: 16px;
+    flex-wrap: wrap;
+    justify-content: center;
 }
-.hero .light-button{
-    color: #FFFBEA;
-    border-color: #FFFBEA;
+.hero .outline-button{
+    color: #FFFFFF;
+    border-color: #FFFFFF;
 }
-.hero .light-button:hover{
-    background-color: #FFFBEA;
-    color: #264653;
+.hero .outline-button:hover{
+    background-color: #FFFFFF;
+    color: #102F35;
 }
 /* how it works section */
 .how-it-works{
-    padding: 50px 40px;
+    padding: 50px 24px;
     text-align: center;
 }
 .how-it-works h2{
-    font-size: 2rem;
-    color: #01461f;
-    margin-bottom: 30px;
+    font-size: 1.8rem;
+    color: #102F35;
+    margin-bottom: 28px;
 }
 .steps{
     display: flex;
     justify-content: center;
-    gap: 25px;
+    gap: 20px;
+    flex-wrap: wrap;
 }
 .step{
     width: 250px;
-    padding: 20px;
-    border: 2px solid #01461f;
-    border-radius: 8px;
-    background-color: #F8F4E6;
+    padding: 22px 18px;
+    border: 1px solid #D5DEDB;
+    border-radius: 10px;
+    background-color: #FFFFFF;
 }
 .step i{
-    font-size: 2.2rem;
-    color: #2A9D8F;
+    font-size: 2rem;
+    color: #E5B65C;
     margin-bottom: 12px;
 }
 .step h3{
     margin-bottom: 8px;
-    color: #01461f;
+    color: #102F35;
 }

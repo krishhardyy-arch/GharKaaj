@@ -1,23 +1,24 @@
 /* css for login and register page */
 .form-section{
-    margin-top: 70px;
-    min-height: calc(100vh - 70px);
+    margin-top: 64px;
+    min-height: calc(100vh - 64px);
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 30px 0;
+    padding: 30px 16px;
 }
 .form-box{
     width: 460px;
+    max-width: 100%;
     padding: 30px;
-    border: 2px solid #01461f;
-    border-radius: 8px;
-    background-color: #F8F4E6;
+    border: 1px solid #D5DEDB;
+    border-radius: 10px;
+    background-color: #FFFFFF;
 }
 .form-title{
     text-align: center;
     margin-bottom: 20px;
-    color: #01461f;
+    color: #102F35;
 }
 .form-group{
     display: flex;
@@ -29,15 +30,15 @@
     margin-bottom: 5px;
 }
 .form-group input{
-    height: 38px;
-    padding: 0 10px;
+    height: 42px;
+    padding: 0 11px;
     font-size: 1rem;
-    border: 1.7px solid #264653;
-    border-radius: 4px;
+    border: 1.5px solid #9AAAA6;
+    border-radius: 6px;
 }
 .form-group input:focus{
     outline: none;
-    border-color: #2A9D8F;
+    border-color: #102F35;
 }
 /* customer or provider choice */
 .role-choice{
@@ -59,6 +60,6 @@
     text-align: center;
 }
 .form-bottom-text a{
-    color: #2A9D8F;
+    color: #102F35;
     font-weight: bold;
 }

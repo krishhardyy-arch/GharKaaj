@@ -12,8 +12,8 @@ const Index = () => {
                     <h1>Need a technician at home? Get one in a few clicks.</h1>
                     <p>Tell us your problem, get a quotation from a verified local provider, and pay only after the service is done.</p>
                     <div className="hero-buttons">
-                        <Link to="/register" className="green-button">Get started</Link>
-                        <Link to="/login" className="light-button">Login</Link>
+                        <Link to="/register" className="gold-button">Get started</Link>
+                        <Link to="/login" className="outline-button">Login</Link>
                     </div>
                 </section>
                 <section className="how-it-works">

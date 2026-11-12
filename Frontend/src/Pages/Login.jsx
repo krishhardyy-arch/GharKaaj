@@ -61,7 +61,7 @@ const Login = () => {
                                     value={password} onChange={(e) => setPassword(e.target.value)} required />
                             </div>
                             <div className="submit-button">
-                                <button type="submit" className="green-button">Login</button>
+                                <button type="submit" className="primary-button">Login</button>
                             </div>
                         </form>
                         <p className="form-bottom-text">New to GharKaaj? <Link to="/register">Create an account</Link></p>

@@ -101,7 +101,7 @@
     border: none;
     border-radius: 8px;
     background: none;
-    font-size: 0.95rem;
+    font-size: 14px;
     font-weight: 600;
     color: #3A4A4F;
     text-align: left;
@@ -122,11 +122,11 @@
     stroke: #E5B65C;
 }
 .sidebar-item.soon{
-    opacity: 0.6;
     cursor: default;
 }
 .sidebar-logout{
-    margin-top: auto;
+    margin-top: 14px;
+    background-color: #E8EEEC;
     cursor: pointer;
 }
 .admin-content{

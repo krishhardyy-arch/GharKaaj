@@ -34,6 +34,7 @@ body{
     flex: 1;
     align-items: center;
     overflow-x: auto;
+    padding: 0;
 }
 .nav-pages-links a, .nav-pages-links .soon{
     display: block;
@@ -52,7 +53,6 @@ body{
     border-bottom-color: #E5B65C;
 }
 .nav-pages-links .soon{
-    opacity: 0.6;
     cursor: default;
 }
 .public-links{
